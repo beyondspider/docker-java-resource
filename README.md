@@ -2,10 +2,10 @@
 
 ## build
 ```bash
-./build.sh
+docker build -t beyondspider/java-resource:latest .
 ```
 
 ## push
 ```bash
-./push.sh
+docker push beyondspider/java-resource:latest
 ```
